@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:hover {
+    cursor: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: none;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    color: #111;
+    background: #ccc;
+}
+  
+
+.cursor
+{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    border-radius: 50%;
+    transition-duration: 60ms;
+    transition-timing-function: ease-out;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: all .36s ease-out;
+    transition-property: background, transform;
+    z-index: 9999;
+}
+
+.cursor-grow {
+   transform: scale(2.8);
+}
+
+.fade-txt {
+    opacity: 0;
+    animation-delay: .4s;
+    transition: .6s ease-out;
+}
+
+@media screen and (min-width: 1380px) {
+    body {
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+}

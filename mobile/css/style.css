@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('./hmtl.css');
+@import url('./header.css');
+@import url('./landing.css');
+@import url('./message1.css');
+@import url('./projects.css');
+@import url('./about.css');
+@import url('./interval.css');
+@import url('./contact.css');
+@font-face {
+    src: url('../fonts/antiqua-roman.otf');
+    font-family: Antiqua;
+}
+@font-face {
+    src: url('../fonts/Founders_Grotesk/FoundersGrotesk-Light.otf');
+    font-family: Founders;
+}

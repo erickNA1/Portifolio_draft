@@ -1,0 +1,42 @@
+.message1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: black;
+}
+
+.message1 .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.message1 .container .img-container {
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+
+.message1 .container .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.message1 .container .text-container {
+    position: relative;
+    width: 80%;
+    height: 40%;
+}
+
+.message1 .container .text-container p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}

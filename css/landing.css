@@ -1,0 +1,131 @@
+.landing {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.landing .title {
+    position: relative;
+    width: 90%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing .title h1 {
+    position: relative;
+    padding-top: 48px;
+    width: 100%;
+    height: 50%;
+    text-transform: uppercase;
+    font-size: 8rem;
+    text-align: left;
+    color: white;
+    font-family: Antiqua;
+    font-weight: 400;
+    letter-spacing: 8px;
+    transform: scale(1, 1.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-out;
+
+}
+
+.landing .title h1:hover {
+    cursor: default;
+}
+
+.landing .title h1 span {
+    margin-left: 122px;
+    position: relative;
+    top: 28px;
+}
+
+.landing .title h2 {
+    position: relative;
+    padding-bottom: 44px;
+    width: 100%;
+    height: 50%;
+    margin-top: 36px;
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-align: left;
+    color: white;
+    font-family: Antiqua;
+    font-weight: 400;
+    letter-spacing: 8px;
+    transform: scale(1, 1.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-out;
+}
+
+.landing .title h2:hover {
+    cursor: default;
+}
+
+.landing .title h2 span {
+    position: relative;
+    margin-left: 12px;
+    top: 32px;
+}
+
+.landing .foot {
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+}
+
+.landing .foot a {
+    text-decoration: none;
+}
+
+.landing .foot a h2 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-family: Founders;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.landing .foot a h2 span {
+    animation: MoveUpDown 2.2s ease-in-out infinite;
+    position: absolute;
+    left: -18px;
+    bottom: 0;
+}
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: -2px;
+    }
+    50% {
+      bottom: 6px;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    .landing .title h1 {
+        font-size: 7rem;
+    }
+    .landing .title h2 {
+        font-size: 5rem;
+    }
+}

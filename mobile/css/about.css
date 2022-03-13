@@ -1,0 +1,146 @@
+.about {
+    position: relative;
+    width: 100%;
+    height: 160vh;
+    background: black;
+}
+.about .scroll-container {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 20%;
+    color: white;
+    overflow: hidden;
+}
+
+.about .scroll-container:hover {
+    cursor: default;
+}
+
+.about .scroll-container .left-scroll {
+    position: relative;
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+}
+
+.about .scroll-container .left-scroll h2 {
+    position: absolute;
+    font-size: 88px;
+    transform: scale(1, 1.8);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Antiqua;
+    white-space: nowrap;
+    animation: scroll-l 138s linear infinite;
+}
+
+.about .scroll-container .right-scroll {
+    position: relative;
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+}
+
+.about .scroll-container .right-scroll h2 {
+    position: absolute;
+    height: 100%;
+    font-size: 88px;
+    transform: scale(1, 1.8);
+    font-weight: 400;
+    font-family: Antiqua;
+    text-transform: uppercase;
+    white-space: nowrap;
+    animation: scroll-r 182s linear infinite;
+}
+
+@keyframes scroll-l {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-58%);
+    }
+}
+
+@keyframes scroll-r {
+    0% {
+        transform: translateX(-58%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.about .text-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .text-container .text1 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about .text-container .text1 h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Antiqua;
+    text-align: left;
+}
+
+.about .text-container .text1 p {
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.about .text-container .text2 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .text-container .text2 h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Antiqua;
+    text-align: right;
+}
+
+.about .text-container .text2 p {
+    text-align: right;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+    margin-right: 6px;
+    margin-top: 10px;
+}

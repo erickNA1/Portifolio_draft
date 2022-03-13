@@ -1,0 +1,175 @@
+.contact {
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    background: white;
+}
+
+.contact .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact .container .text {
+    position: relative;
+    width: 100%;
+    height: 18%;
+    background: white;
+}
+
+.contact .container .text p {
+    position: absolute;
+    top: 120px;
+    right: 280px;
+    width: 38%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}
+
+.contact .container .mail{
+    position: relative;
+    width: 100%;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .container .mail a {
+    text-decoration: none;
+}
+
+.contact .container .mail a h1 {
+    font-family: Antiqua;
+    font-size: 148px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    transition: .6s ease-out;
+}
+
+.contact .container .mail a h1:hover {
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+
+.contact .footer {
+    position: relative;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+.contact .footer .social {
+    position: relative;
+    width: 34%;
+    height: 100%;
+    padding-bottom: 8px;
+}
+
+.contact .footer .social ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.contact .footer .social ul li {
+    position: relative;
+    width: auto;
+    height: 80%;
+}
+
+.contact .footer .social ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Founders;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+
+}
+
+.contact .footer .social ul li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: black;
+    transition: .4s ease-out;
+}
+
+.contact .footer .social ul a:hover::before{
+    width: 100%;
+}
+
+.contact .footer .copyright {
+    position: relative;
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact .footer .copyright p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1400px) {
+    .contact {
+        background: black;
+    }
+
+    .contact .container .text {
+        background: black;
+    }
+
+    .contact .container .text p {
+        color: white;
+    }
+
+    .contact .container .mail a h1 {
+        color: white;
+    }
+
+    .contact .footer {
+        background: black;
+    }
+    
+    .contact .footer .social ul li a {
+     color: white;
+    }
+
+    .contact .footer .social ul li a::before {
+        background: white;
+    }
+
+    .contact .footer .copyright p {
+        color: white;
+    }
+}

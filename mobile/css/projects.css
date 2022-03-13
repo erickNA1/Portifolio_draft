@@ -1,0 +1,260 @@
+.projects {
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: black;
+}
+
+.projects .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .project1 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.projects .container .project1 .img-container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+
+.projects .container .project1 .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.projects .container .project1 .text-container {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .container .project1 .text-container .info {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.projects .container .project1 .text-container .info p {
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}
+
+.projects .container .project1 .text-container .number {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .project1 .text-container .number h1 {
+    color: white;
+    font-size: 28px;
+    font-family: Founders;
+    text-align: right;
+}
+
+.projects .container .project1 .text-container .number h1::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.projects .container .project2 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.projects .container .project2 .img-container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+
+.projects .container .project2 .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.projects .container .project2 .text-container {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .container .project2 .text-container .info {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.projects .container .project2 .text-container .info p {
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}
+
+.projects .container .project2 .text-container .number {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .project2 .text-container .number h1 {
+    color: white;
+    font-size: 28px;
+    font-family: Founders;
+    text-align: right;
+}
+
+.projects .container .project2 .text-container .number h1::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.projects .container .project3 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .project3 .img-container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background: white;
+}
+
+.projects .container .project3 .img-container h1 {
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-family: Antiqua;
+}
+
+.projects .container .project3 .text-container {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .container .project3 .text-container .info {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.projects .container .project3 .text-container .info p {
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+}
+
+.projects .container .project3 .text-container .info a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.projects .container .project3 .text-container .number {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .project3 .text-container .number h1 {
+    color: white;
+    font-size: 28px;
+    font-family: Founders;
+    text-align: right;
+}
+
+.projects .container .project3 .text-container .number h1::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}

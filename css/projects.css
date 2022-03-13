@@ -1,0 +1,119 @@
+.projects {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+}
+
+.projects .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projects .container .name-container {
+    position: relative;
+    width: 360px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .name-container .name {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .container .name-container .name::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: .6px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.projects .container .name-container .name a {
+    text-decoration: none;
+}
+
+.projects .container .name-container .name h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.projects .container .project-display {
+    position: relative;
+    width: 780px;
+    height: 440px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.projects .container .project-display .place-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+
+.projects .container .project-display .place-holder h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 4rem;
+}
+
+.projects .container .project-display .projeto {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all .6s ease-in-out;
+}
+
+.img1 {
+    background: url('../imgs/Lechambre.jpeg');
+    background-size: cover;
+}
+
+.img2 {
+    background: url('../imgs/Alone.jpeg');
+    background-size: cover;
+}
+
+.img3 {
+    background: url('../imgs/Lechambre.jpeg');
+    background-size: cover;
+}
+
+.img4 {
+    background: url('../imgs/Alone.jpeg');
+    background-size: cover;
+}

@@ -1,0 +1,159 @@
+.about {
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: black;
+}
+.about .scroll-container {
+    position: relative;
+    top: 220px;
+    width: 100%;
+    height: 30%;
+    color: white;
+    overflow: hidden;
+}
+
+.about .scroll-container:hover {
+    cursor: default;
+}
+
+.about .scroll-container .left-scroll {
+    position: relative;
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.about .scroll-container .left-scroll h2 {
+    position: absolute;
+    font-size: 180px;
+    transform: scale(1, 1.8);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Antiqua;
+    white-space: nowrap;
+    animation: scroll-l 138s linear infinite;
+}
+
+.about .scroll-container .right-scroll {
+    position: relative;
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+}
+
+.about .scroll-container .right-scroll h2 {
+    position: absolute;
+    height: 100%;
+    font-size: 180px;
+    transform: scale(1, 1.8);
+    font-weight: 400;
+    font-family: Antiqua;
+    text-transform: uppercase;
+    white-space: nowrap;
+    animation: scroll-r 182s linear infinite;
+}
+
+@keyframes scroll-l {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-58%);
+    }
+}
+
+@keyframes scroll-r {
+    0% {
+        transform: translateX(-58%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.about .container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .container .text1 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+
+.about .container .text1 h2 {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    width: 38%;
+    font-size: 72px;
+    font-family: Antiqua;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.about .container .text2 h1:hover{
+    cursor: default;
+}
+
+.about .container .text1 p {
+    position: absolute;
+    right: 40px;
+    top: 230px;
+    width: 38%;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+}
+
+.about .container .text2 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+
+.about .container .text2 h2 {
+    position: absolute;
+    left: 40px;
+    bottom: 220px;
+    width: 38%;
+    font-size: 72px;
+    font-family: Antiqua;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.about .container .text2 h2:hover{
+    cursor: default;
+}
+
+.about .container .text2 p {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    width: 38%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IBM Plex Sans Thai Looped;
+}
+
